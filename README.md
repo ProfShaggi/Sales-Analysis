@@ -1,4 +1,6 @@
-# Excel Data Analysis Project: Sales Analysis and Order Management
+# Excel Data Analysis Project: Sales Analysis and Order Management.
+
+[](intro.jpeg)
 
 ### Project Summary
 This project was initiated to help a retail business address core operational concerns through data-driven insights. The client posed the following key business questions:
