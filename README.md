@@ -3,13 +3,11 @@
 ![](intro.jpeg)
 
 ### 📁 Project Summary
-This project was initiated to help a retail business address core operational concerns through data-driven insights. The client posed the following key business questions:
+This project was designed to address key operational challenges faced by a retail business through data-driven insights. I developed a fully automated and dynamic Excel dashboard that seamlessly integrates data collection, cleaning, analysis, and visualization. The solution serves as a self-sustaining tool that enables stakeholders to make informed decisions and enhance operational efficiency with minimal manual intervention.
 
-- Which products generate the highest revenue and profit? What are their associated costs?
-- What are the trends in revenue, cost, and profit over time?
-- How do order statuses (Completed vs. Returned) evolve, and what patterns can be identified?
-
-To address these, I developed a fully automated, dynamic Excel dashboard that integrates data collection, cleaning, analysis, and visualization. The tool empowers stakeholders to make informed decisions and optimize operations independently.
+#### ⚠️ Disclaimer
+*_The dataset and findings presented in this project do not reflect any real company, organization, or country. 
+This project was developed solely to demonstrate my data analysis skills and proficiency in Microsoft Excel._*
 
 ### 🎯 Project Objectives
 1. Analyze trends and patterns in order statuses (Completed vs. Returned).
@@ -27,7 +25,7 @@ To address these, I developed a fully automated, dynamic Excel dashboard that in
 **Raw data (Before data cleaning)**              |  **Raw data (After data cleaning)**
 :----------------------------------------------: | :------------------------------:
 ![](raw_data.png)                                |  ![](Cleaned_data.png)  
-[Download data here](sales_data.xlsx)            |  [Download data here](Cleaned_data(2).xlsx)
+[Download data here](sales_data.xlsx)            |  [Download data here](Cleaned_data.xlsx)
 
 
 ### 🛠 Data Processing
@@ -47,5 +45,25 @@ To address these, I developed a fully automated, dynamic Excel dashboard that in
   - Confirmation pop-up upon successful submission.
   - Automatic form reset for new entries.
 
-**Automated Data Pipeline (Data Entry Form)**
-![](Pipeline(Sales Form).png)
+**Automated Form**    |
+:----------------------------------------------: |
+![](Pipeline.png)                                |
+
+### 📊 Interactive Dashboard
+**The dashboard was designed to be user-friendly, interactive, and highly informative. Below are its key features:**
+
+**Key Performance Indicators (KPIs):** Used Pivot Tables to calculate and display important metrics such as Revenue, Cost, Profit, Return Rate, and Delivery Time.
+
+**Dynamic Visualizations:** Charts were created to visually represent trends and patterns in the data, making insights easy to understand at a glance.
+
+**Interactive Navigation and Filtering:** Slicers were added to enable real-time filtering of the dashboard based on selected criteria.
+
+**Dynamic Buttons were created to enhance user experience and navigation across the workbook:**
+- Refresh Button – Instantly updates the dashboard with the latest data.
+- EDA Button – Navigates to the Exploratory Data Analysis sheet containing the t-test results and interpretations.
+- Automated Form Button – Leads to the sheet containing the automated data entry form.
+- Database Button – Opens the raw data sheet where submitted entries are stored.
+- Dashboard Button – Takes users back to the dashboard.
+
+These features work together to ensure the dashboard is not only informative but also easy to use for non-technical stakeholders.
+Interpretation: There is a statistically significant relationship between delivery time and return rate.
