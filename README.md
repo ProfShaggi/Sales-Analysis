@@ -67,3 +67,7 @@ This project was developed solely to demonstrate my data analysis skills and pro
 
 These features work together to ensure the dashboard is not only informative but also easy to use for non-technical stakeholders.
 Interpretation: There is a statistically significant relationship between delivery time and return rate.
+
+**Refresh Button** | **EDA Button** |**Automated Form Button**| **Database Button** | **Dashboard Button**
+:----------------: | :-------------:| :---------------------: | :-----------------: | :----------------: |
+![](Refresh.gif)   | ![](EDA.gif)   | ![](Form.gif)           | ![](Database.gif)   | ![](Dashboard.gif) |
